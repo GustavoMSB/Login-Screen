@@ -21,17 +21,17 @@ body{
 }
 
 .box input[type = "text"],.box input[type="password"], .box input[type ="email"]{
-    border:0;
+    /* border:0; */
     background: none;
     display: block;
-    margin: 20px auto;
+    /* margin: 15px auto; */
     text-align: center;
     border: 2px solid #3498db;
     padding: 14px 10px;
     width: 200px;
     outline: none;
     color: white;
-    border-radius: 18px;
+    border-radius: 0px 18px 18px 0px;
     transition: 0.25s;
 }
 
@@ -57,4 +57,73 @@ body{
 
 .box input[type="button"]:hover{
     background: #8e44ad;
+}
+
+.input-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    
+}
+.input-group i{
+    border: 2px solid #3498db;
+    border-radius: 18px 0px 0px 18px;
+    padding: 14px 10px;
+    background-color: #3498db;
+    font-size: 19px;
+}
+
+.password-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.password-group i{
+    border: 2px solid #3498db;
+    border-radius: 18px 0px 0px 18px;
+    padding: 14px 10px;
+    background-color: #3498db;
+    font-size: 19px;
+}
+.input-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+.input-name i{
+    border: 2px solid #3498db;
+    border-radius: 18px 0px 0px 18px;
+    padding: 14px 10px;
+    background-color: #3498db;
+    font-size: 19px;
+}
+.input-username{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+.input-username i{
+    border: 2px solid #3498db;
+    border-radius: 18px 0px 0px 18px;
+    padding: 14px 10px;
+    background-color: #3498db;
+    font-size: 19px;
+}
+.input-email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+.input-email i{
+    border: 2px solid #3498db;
+    border-radius: 18px 0px 0px 18px;
+    padding: 14.5px 10px;
+    background-color: #3498db;
+    font-size: 18px;
 }
