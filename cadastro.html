@@ -6,15 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 
 <body>
     <form class="box" action="cadastro.html" method="post">
         <h1>Registration</h1>
-        <input type="text" placeholder="Your name">
-        <input type="text" placeholder="Username">
-        <input type="email" placeholder="E-mail">
-        <input type="password" placeholder="Password">
+        <div class="input-name">
+            <i class="fa fa-keyboard-o" aria-hidden="true"></i>
+            <input type="text" placeholder="Your name">
+        </div>
+
+        <div class="input-username">
+            <i class="fa fa-user" aria-hidden="true"></i>
+            <input type="text" placeholder="Username">
+        </div>
+        <div class="input-email">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <input type="email" placeholder="E-mail">
+        </div>
+        <div class="password-group">
+            <i class="fa fa-lock" aria-hidden="true"></i>
+            <input type="password" placeholder="Password">
+        </div>
 
         <a href="index.html" id="finalize">
             <input type="button" value="Finalize registration">
