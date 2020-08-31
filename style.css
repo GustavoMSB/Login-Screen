@@ -120,6 +120,9 @@ body{
     align-items: center;
     margin: 20px auto;
 }
+.box h3{
+    color:white;
+}
 .input-email i{
     border: 2px solid #3498db;
     border-radius: 18px 0px 0px 18px;
